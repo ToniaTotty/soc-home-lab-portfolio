@@ -1,0 +1,62 @@
+SOC TIER ROLES
+Tier 1(Security Monitoring and alert Triage)
+Responsibilities:
+- Monitor SIEM Dashboards
+- Review security alerts
+- Validate alerts
+- Perform Initial validation
+- Collect evidence
+- Escalate confirmed Incidents to Tier 2
+- Document findings
+
+Tier 2 (Incident Investigation and Response)
+Responsibilities:
+- Perform deeper forensic investigations
+- Analyze malware and suspicious activity
+- Contain and remediate incidents
+- Coordinate with IT teams
+- Support Tier 1 analysts
+
+Tier 3 (Threat Hunting and Detection Engineering)
+Responsibilities:
+- Hunt for advanced threats
+- Develop detection rules
+- Improve SOC monitoring capabilities
+- Analyze attacker techniques using MITRE ATT&CK
+- Tune SIEM and EDR detections
+
+Alert Flow
+
+Security Event
+↓
+
+SIEM Detection
+
+↓
+
+Tier 1 Triage
+
+↓
+
+If False Positive:
+Close Alert
+
+If Confirmed Threat:
+Escalate to Tier 2
+
+↓
+
+Tier 2 Investigation
+
+↓
+
+If Advanced Threat:
+Escalate to Tier 3
+
+↓
+
+Incident Resolved
+
+↓
+
+Documentation and Lessons Learned

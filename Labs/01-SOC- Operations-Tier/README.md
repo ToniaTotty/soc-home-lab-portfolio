@@ -1,5 +1,3 @@
-## SOC Operations Tier1
-
 # Lab 01 - SOC Operations & Tier-1 Responsibilities
 
 ## Objective
